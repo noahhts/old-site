@@ -1,18 +1,76 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5em;
-  font-size: 1em;
-  color: #222;
-  max-width: 40rem;
-  padding: 2rem;
-  margin: auto;
-  background: #fafafa; 
+  font-size: 16px;
+  color: #333333;
+  /*max-width: 40rem;*/
+  padding: 1rem;
+  /*margin: auto;*/
+  background: #f5f5f5;
+  text-rendering: optimizeLegibility;
+  max-width: 600px;
+  /*padding: 0 24px;*/
+  margin: 0 auto;
 }
 
 header {
-  display: block;
+  /*display: block;
   width: 100%;
-  float: left;
+  float: left;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 620px;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+}
+
+.logo {
+  color: #4c525c;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logo:hover {
+  color: #777;
+}
+
+img {
+  width: 40px;
+  aspect-ratio: auto 40 / 40;
+  height: 40px;
+}
+
+header ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul li {
+  margin: 0 5px;
+}
+
+header ul a {
+  color: #4c525c;
+  text-decoration: none;
+  border-bottom: 1px solid #4c525c;
+}
+
+header ul a:hover {
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 img {
@@ -24,11 +82,12 @@ a {
 }
 
 h1, h2, strong {
-  color: #111; 
+  color: #333; 
 }
 
 h1 {
   font-size: 1.6em;
+  margin-top: 1em;
 }
 
 h2, h3 {
@@ -52,16 +111,35 @@ li {
   margin-bottom: 0.66em;
 }
 
+.post-link {
+  color: #337AB7 !important;
+  text-decoration: none;
+}
+.post-link:hover {
+  color: #235b9b !important;
+  text-decoration: underline;
+}
+
 hr {
   border: 0px;
   border-top: 1px solid #eee; 
 }
 
 .muted {
-  color: #aaa;
+  color: #777;
   text-decoration: none; 
 }
 
 .small {
-  font-size: .8em; 
+  font-size: 90%;
+}
+
+.date {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.link:hover {
+  color: #aaa;
+  text-decoration: underline;
 }

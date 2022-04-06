@@ -1,8 +1,8 @@
 ---
 layout: post
-title:	Hello World!
-date:	2020-01-01
-author:	Lorem Ipsum
+title:	My First Blog Post
+date:	2022-04-06
+author:	eac
 description: The first post on this website.
 ogimage: opengraphimage.jpeg
 

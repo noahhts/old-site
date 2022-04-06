@@ -8,6 +8,8 @@ ogimage: opengraphimage.jpeg
 
 ---
 
+This is a test post. I just set this website up and will continute to be tinkering with it. I do plan on putting out more writing simultaneously, though.
+
 Lorem markdownum cum dixit exspectare sanguine favillae Boreas in libandas unda
 ast lacrimas, est [monte membra](http://quem.io/semina) mediumque vetus! Volat
 fuit inmitis illo, agunt aras laudatissima ferit certamina famuli somnusque an

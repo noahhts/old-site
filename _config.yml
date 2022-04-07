@@ -9,3 +9,4 @@ permalink: /:categories/:title:output_ext
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag

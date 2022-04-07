@@ -1,0 +1,13 @@
+---
+layout: post
+title:	test post
+date:	2022-04-07
+author:	noah
+description: a test post on this website.
+ogimage: ogimage.jpeg
+
+---
+
+This is another test post.
+
+Testing link: [Coinbase](https://www.coinbase.com/).

@@ -2,9 +2,9 @@
 layout: post
 title:	My First Blog Post
 date:	2022-04-06
-author:	eac
+author:	noah
 description: The first post on this website.
-ogimage: opengraphimage.jpeg
+ogimage: ogimage.jpeg
 
 ---
 

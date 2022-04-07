@@ -139,6 +139,11 @@ hr {
   border-bottom: 1px solid #ccc;
 }
 
+footer {
+  padding-top: 0.5em;
+  border-top: 1px solid #ccc;
+}
+
 .link:hover {
   color: #aaa;
   text-decoration: underline;

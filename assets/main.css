@@ -6,7 +6,8 @@ body {
   /*max-width: 40rem;*/
   padding: 1rem;
   /*margin: auto;*/
-  background: #f5f5f5;
+  /*background: #f5f5f5;*/
+  background-color: #fff;
   text-rendering: optimizeLegibility;
   max-width: 600px;
   /*padding: 0 24px;*/
@@ -124,7 +125,7 @@ li {
 }
 .post-link:hover {
   color: #20517c !important;
-  /*text-decoration: underline;*/
+  text-decoration: underline;
 }
 
 hr {

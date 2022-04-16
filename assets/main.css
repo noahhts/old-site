@@ -124,7 +124,7 @@ li {
 }
 .post-link:hover {
   color: #20517c !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 hr {

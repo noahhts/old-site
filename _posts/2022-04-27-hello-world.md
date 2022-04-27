@@ -8,7 +8,7 @@ ogimage: ogimage.jpeg
 
 ---
 
-This is my first post on this website, which has been a long time coming. I had been planning on putting writing out earlier, but I just never got to it, until now. So what is this website and what is the point of this?
+This is my first post on this website, which has been a long time coming. I had been planning on putting writing out earlier, but I just never got to it, until now. So what is this website and what is the point of it?
 
 ## What this website is
 
@@ -28,6 +28,6 @@ I also hope it forces me to write more to become a better writer and communicato
 
 ## How this website works
 
-I am using Jekyll and GitHub Pages. You can look at my GitHub as well. I used Dan Romero's theme and edited some of the HTML and CSS. For more detail, he has a [post](https://danromero.org/how-this-website-works.html) on how his website is set up, but I'm not using everything he is. Mostly just the Jekyll theme and GitHub Pages for hosting. For example, I'm using Cloudflare for DNS stuff. There's also other options out there like Substack, Notion, Ghost, etc.
+I am using Jekyll for CMS, GitHub Pages for hosting, and Cloudflare for DNS stuff. You can look at my GitHub as well. I used Dan Romero's Jekyll theme and edited some of the HTML and CSS. For more detail, he has a [post](https://danromero.org/how-this-website-works.html) on how his website works, but I'm not using everything he is. There's also other options out there like Substack, Notion, Ghost, etc.
 
 In terms of writing, I'm not sure what I'll be using consistently yet. I've always used Google Docs for school, but I prefer [Skiff](https://skiff.org/) now for privacy reasons. I also think it's a better product. I'm actually writing this post directly in VS Code in a Markdown document. I might play around with Notion as well or find a Markdown editor. I also might just keep using VS Code. It honestly works perfectly fine to write posts in Markdown format, I can write offline, and the file is already where it needs to be. I just need to commit and push to git, and the post is up on my website. I'm also a big fan and user of Apple Notes, so might use that. Currently, my thoughts and notes are scattered across different apps, so if anyone has suggestions on the productivity, note-taking, and writing fronts, please let me know. I've been looking at [Roam](https://roamresearch.com/), but I'm gonna need to have a real job before paying for that software. One last thought on this matter is to just do what Derek Sivers does: [write plain text files](https://sive.rs/plaintext).

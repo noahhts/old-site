@@ -12,7 +12,7 @@ This is my first post on this website, which has been a long time coming. I had 
 
 ## What this website is
 
-This is my personal website. I think of it as my homebase on the internet. Hopefully, you can find everything else I do from this website. I have links to my [Twitter](https://twitter.com/eacxns), [GitHub](https://github.com/eacxyz), and Substack. I'll add more if there's other places to find me.
+This is my personal website. I think of it as my homebase on the internet. Hopefully, you can find everything else I do from this website. I have links to my [Twitter](https://twitter.com/eacxns), [GitHub](https://github.com/eacxyz), and [Substack](https://eacxns.substack.com/). I'll add more if there's other places to find me.
 
 I just got back into programming, hence the GitHub. I didn't have too much experience before, so I'm basically starting from scratch again. I'm looking forward to that journey. Making this website was the first part of that.
 

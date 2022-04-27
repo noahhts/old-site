@@ -16,7 +16,7 @@ This is my personal website. I think of it as my homebase on the internet. Hopef
 
 I just got back into programming, hence the GitHub. I didn't have too much experience before, so I'm basically starting from scratch again. I'm looking forward to that journey. Making this website was the first part of that.
 
-I'm not exactly sure how or where to put all my writing. I plan on having all posts on this website, though. If you want to receive them by email, you can subscribe via Substack. I'll either just put a link to the blog post on my website or actually have it written out in the Substack post. It'll probably be the latter (it's just copy/paste really). If you use RSS, you can get that feed at the bottom of every post. Any other thoughts and writing will be on Twitter.
+I'm not exactly sure how or where to put all my writing. I plan on having all posts on this website, though. If you want to receive them by email, you can subscribe via Substack. I'll either just put a link to the blog post on my website or actually have it written out in the Substack post. If you use RSS, you can get that feed at the bottom of every post. Any other thoughts and writing will be on Twitter.
 
 ## Why I made this website
 

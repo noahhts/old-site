@@ -2,9 +2,9 @@
 layout: post
 title:	Hello World
 date:	2022-04-27
-author:	noah
+author:	Noah
 description: What the point of my personal website is and how it works.
-ogimage: ogimage.jpeg
+ogimage: hello-world.jpeg
 
 ---
 

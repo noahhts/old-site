@@ -28,14 +28,16 @@
   <meta name="description" content="{{ site.description }}" >
   <meta property="og:description" content="{{ site.description }}" >
 {% endif %}
-{% if page.ogimage %}
-  <meta property="twitter:image" content="{{ site.url }}/assets/og/{{ page.ogimage }}" >
-{% else %}
-  <meta property="twitter:image" content="https://eacxns.com/assets/logo.png" >
-{% endif %}
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{ site.twitter }}" />
   <meta name="twitter:creator" content="@{{ site.twitter }}" />
+
+{% if page.ogimage %}
+  <meta name="twitter:image" content="{{ site.url }}/assets/og/{{ page.ogimage }}" >
+{% else %}
+  <meta name="twitter:image" content="https://eacxns.com/assets/logo.png" >
+{% endif %}
 
   <meta name="theme" content="Clio 1.0" />
   <meta name="theme_author" content="Dan Romero" />

@@ -101,14 +101,14 @@ h1 {
 }
 
 h2, h3 {
-  font-size: 1.3em; 
+  font-size: 1.3em;
   margin-top: 1.3em;
-  margin-bottom: 0.2em; 
+  margin-bottom: 0.2em;
 }
 
 h3 {
-  font-size: 1.1em; 
-  font-style: italic; 
+  font-size: 1.1em;
+  font-style: italic;
 }
 
 p {
@@ -132,12 +132,12 @@ li {
 
 hr {
   border: 0px;
-  border-top: 1px solid #eee; 
+  border-top: 1px solid #eee;
 }
 
 .muted {
   color: #777;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .small {

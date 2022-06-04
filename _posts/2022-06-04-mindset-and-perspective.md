@@ -4,6 +4,7 @@ title:	Mindset and perspective
 date:	2022-06-04
 author:	Noah
 description: Thoughts on having a positive mindset and keeping perspective
+ogimage: og-image.jpeg
 
 ---
 

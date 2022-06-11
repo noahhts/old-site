@@ -3,4 +3,6 @@ layout: home
 ---
 I'm a student at the University of Chicago where I study economics.
 
-My interests include technology, privacy, crypto, Boston sports, Manchester United, skiing.
+My interests include technology, privacy, crypto, and the creator economy.
+
+I'm a big fan of Boston sports, Manchester United, F1, and skiing.

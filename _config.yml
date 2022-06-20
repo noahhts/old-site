@@ -8,6 +8,7 @@ baseurl: ""
 permalink: /:categories/:title:output_ext
 markdown: kramdown
 highlighter: rouge
+  input: GFM
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

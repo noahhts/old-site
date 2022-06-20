@@ -38,13 +38,13 @@ I created a file: `touch publish.sh` and then edited it: `vim publish.sh`, and t
 ```bash
 publish () {
     cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Obsidian\ Vault/posts
-	# move into the posts folder in Obsidian Vault directory in iCloud Drive (so I can call this command from any location and not have to include the above path in the argument)
+    # move into the posts folder in Obsidian Vault directory in iCloud Drive (so I can call this command from any location and not have to include the above path in the argument)
 
     cp $1 ~/path/to/website-repo/_posts/$1
-	# copy first argument (the file/post) into the posts folder in my website repository
+    # copy first argument (the file/post) into the posts folder in my website repository
 
     cd ~/path/to/website-repo
-	# move into the directory of my website repository, so I can complete git commands to publish changes
+    # move into the directory of my website repository, so I can complete git commands to publish changes
 
     git add --all
     git commit -m "publish $1"
@@ -54,6 +54,8 @@ publish () {
 It doesn't really matter the location of this file (I just put it in a folder called code for now).
 
 To execute this script in our shell and (re)load the definition, type `source publish.sh`. Now the publish function has been defined in our shell and we can do `publish 2022-06-20-title.md` for example. This copies that file from your Obsidian Vault (or whatever location you have your writing in, using whatever text editor) into your website's repository and commits and pushes the post (or its edits) to GitHub.
+
+Edit: it seems that if you quit the terminal, you have to `source` again. Since I'm still new to this, I did some googling. The solution for me is to put `source ~/code/publish.sh` into `~/.bash_profile`. Then it will load the definition for every shell I think.
 
 Jekyll requires the format of YYYY-MM-DD-title.md for posts, which is a bit long and annoying to type out with the date, so I'm not sure if there's an easier way to deal with this in general. Maybe it's possible to add stuff in the script, but found it easier for now to just make the title of the Obsidian file the same format.
 

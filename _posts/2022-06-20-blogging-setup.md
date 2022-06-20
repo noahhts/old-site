@@ -55,7 +55,7 @@ It doesn't really matter the location of this file (I just put it in a folder ca
 
 To execute this script in our shell and (re)load the definition, type `source publish.sh`. Now the publish function has been defined in our shell and we can do `publish 2022-06-20-title.md` for example. This copies that file from your Obsidian Vault (or whatever location you have your writing in, using whatever text editor) into your website's repository and commits and pushes the post (or its edits) to GitHub.
 
-Edit: it seems that if you quit the terminal, you have to `source` again. Since I'm still new to this, I did some googling. The solution for me is to put `source ~/code/publish.sh` into `~/.bash_profile`. Then it will load the definition for every shell I think.
+*Edit: it seems that if you quit the terminal, you have to `source` again. Since I'm still new to this, I did some googling. The solution for me is to put `source ~/code/publish.sh` into `~/.bash_profile`. Then it will load the definition for every shell I think, and I don't have to type `source publish.sh` ever again.*
 
 Jekyll requires the format of YYYY-MM-DD-title.md for posts, which is a bit long and annoying to type out with the date, so I'm not sure if there's an easier way to deal with this in general. Maybe it's possible to add stuff in the script, but found it easier for now to just make the title of the Obsidian file the same format.
 

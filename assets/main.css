@@ -14,6 +14,7 @@ body {
   max-width: 600px;
   /*padding: 0 24px;*/
   margin: 0 auto;
+  overflow: scroll;
 }
 
 header {
@@ -159,9 +160,4 @@ footer {
 .link:hover {
   color: #aaa;
   text-decoration: underline;
-}
-
-code {
-  width: 600px;
-  display: block;
 }

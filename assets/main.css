@@ -160,3 +160,8 @@ footer {
   color: #aaa;
   text-decoration: underline;
 }
+
+code {
+  width: 600px;
+  display: block;
+}

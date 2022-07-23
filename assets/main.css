@@ -15,6 +15,7 @@ body {
   /*padding: 0 24px;*/
   margin: 0 auto;
   overflow: scroll;
+  tab-size: 4;
 }
 
 header {

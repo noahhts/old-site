@@ -46,41 +46,9 @@ publish () {
 	cd ~/path/to/website-repo
 	# move into the directory of my website repository, so I can complete git commands to publish changes
 
-
 	git add --all
 	git commit -m "publish $1"
 	git push
-}
-```
-
-```bash
-publish () {
-  cd ~/Library/Mobile\ Documents
-  /iCloud~md~obsidian/Documents/
-  Obsidian\ Vault/posts
-  # move into the posts folder 
-  # in Obsidian Vault directory 
-  # in iCloud Drive (so I can 
-  # call this command from any 
-  # location and not have to 
-  # include the above path in the 
-  # argument)
-
-  cp $1 ~/path/to/website-repo/
-  _posts/$1
-  # copy first argument (the file
-  # /post) into the posts folder 
-  # in my website repository
-
-  cd ~/path/to/website-repo
-  # move into the directory of my 
-  # website repository, so I can 
-  # complete git commands to 
-  # publish changes
-
-  git add --all
-  git commit -m "publish $1"
-  git push
 }
 ```
 It doesn't really matter the location of this file (I just put it in a folder called code for now).

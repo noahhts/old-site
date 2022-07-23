@@ -37,6 +37,24 @@ After some thinking through it, and some trial and error, I did it. And it was a
 I created a file: `touch publish.sh` and then edited it: `vim publish.sh`, and this is what that file contains now:
 ```bash
 publish () {
+	cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Obsidian\ Vault/posts
+	# move into the posts folder in Obsidian Vault directory in iCloud Drive (so I can call this command from any location and not have to include the above path in the argument)
+
+	cp $1 ~/path/to/website-repo/_posts/$1
+	# copy first argument (the file/post) into the posts folder in my website repository
+
+	cd ~/path/to/website-repo
+	# move into the directory of my website repository, so I can complete git commands to publish changes
+
+
+	git add --all
+	git commit -m "publish $1"
+	git push
+}
+```
+
+```bash
+publish () {
   cd ~/Library/Mobile\ Documents
   /iCloud~md~obsidian/Documents/
   Obsidian\ Vault/posts

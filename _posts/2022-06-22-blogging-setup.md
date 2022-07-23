@@ -35,10 +35,9 @@ I wanted to write a script to publish blog posts to:
 After some thinking through it, and some trial and error, I did it. And it was actually really easy with the help of Google. I'm also currently going through [The Missing Semester](https://missing.csail.mit.edu/), and lecture 2 on [shell tools and scripting](https://missing.csail.mit.edu/2020/shell-tools/) helped. I probably only thought of this idea because I recently watched that lecture and went through the exercises.
 
 I created a file: `touch publish.sh` and then edited it: `vim publish.sh`, and this is what that file contains now:
-```bash
+{% highlight bash %}
 publish () {
-    cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/
-        Documents/Obsidian\ Vault/posts
+    cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Obsidian\ Vault/posts
     # move into the posts folder in Obsidian Vault directory 
     # in iCloud Drive (so I can call this command from any 
     # location and not have to include the above path in the 
@@ -56,7 +55,7 @@ publish () {
     git commit -m "publish $1"
     git push
 }
-```
+{% endhighlight %}
 It doesn't really matter the location of this file (I just put it in a folder called code for now).
 
 To execute this script in our shell and (re)load the definition, type `source publish.sh`. Now the publish function has been defined in our shell and we can do `publish 2022-06-20-title.md` for example. This copies that file from your Obsidian Vault (or whatever location you have your writing in, using whatever text editor) into your website's repository and commits and pushes the post (or its edits) to GitHub.

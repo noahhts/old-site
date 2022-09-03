@@ -7,4 +7,4 @@ My interests include technology, privacy, crypto, and the creator economy.
 
 I'm a big fan of Boston sports, Manchester United, F1, and skiing.
 
-[Subscribe to get new blog posts by email.](https://eacxns.beehiiv.com/subscribe)
+[Subscribe to get new blog posts by email.](https://noah.beehiiv.com/subscribe)
